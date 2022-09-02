@@ -4,23 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>hypotenuse</title>
 </head>
 <body>
 
-    <h1>Calculate Hypotenuse of a triangle</h1>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+            <a href="/index.html" class="link">Is Triangle</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="/quiz.html" class="link">quiz</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="/hypotenuse.html" class="link link-active">hypotenuse</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="/areaOfTriangle.html" class="link">Area of Triangle</a>
+          </li>
+        </ul>
+    </nav>
 
-    <label for="base">Enter base value (a) =</label>
-    <input type="number" name="base" id="base" class="input">
-    <label for="height">Enter height value (b) =</label>
-    <input type="number" name="height" id="height" class="input">
+    <main class="main">
+      <h1>Calculate Hypotenuse of a triangle</h1>
 
-    <button type="submit" id="hypotenuse">Calculate hypotenuse</button>
+      <label for="base">Enter base value (a) =</label>
+      <input type="number" name="base" id="base" class="input">
+      <label for="height">Enter height value (b) =</label>
+      <input type="number" name="height" id="height" class="input">
+  
+      <button type="submit" id="hypotenuse">Calculate hypotenuse</button>
+  
+      <h3>Hypotenuse formula
+          √(base² + height²)</h3>
+  
+      <div class="message"></div>
+    </main>
 
-    <h3>Hypotenuse formula
-        √(base² + height²)</h3>
-
-    <div class="message"></div>
+    <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline"> 
+            <a class="link" href="https://github.com/sahitm" target="_blank" >github</a> 
+          </li>
+          <li class="list-item-inline"> 
+              <a class="link" href="https://www.linkedin.com/in/sahit-mandapati/" target="_blank">Linkedin</a> 
+          </li> 
+          <li class="list-item-inline"> 
+              <a class="link" href="https://twitter.com/SahitMandapati" target="_blank">twitter</a> 
+          </li>
+        </ul>
+      </footer>
 
     <script src="hypotenuse.js"></script>
 </body>
