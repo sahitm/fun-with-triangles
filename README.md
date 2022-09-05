@@ -7,7 +7,7 @@ A Fun With Triangles App built using HTML, CSS & VanillaJS
 
 ## Demo
 
-[Live view](https://fun-with-triangles-1.sahitm1.repl.co) of the project.
+[Live view](https://fun-with-triangles11.netlify.app/) of the project.
 
 
 
