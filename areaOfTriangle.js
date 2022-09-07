@@ -17,7 +17,7 @@ function calcArea(){
         const area = Area(Number(input[0].value) , Number(input[1].value)  , Number(input[2].value) )
         message.innerHTML = `The area of triangle is ${area}`
     }else{
-        message.innerHTML = `Invalid Data`
+        message.innerHTML = `Invalid Data or values must be greater than zero`
     }
 
 }

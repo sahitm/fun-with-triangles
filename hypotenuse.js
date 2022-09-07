@@ -11,7 +11,7 @@ function calcHypotenuse(){
         const Hypo = handleHypo(input[0].value, input[1].value)
         message.innerHTML = `The length of hypotenuse is ${Hypo}`
     }else{
-        message.innerHTML = `Invalid Data`
+        message.innerHTML = `Invalid Data or values must be greater than zero`
     }
 
 }
